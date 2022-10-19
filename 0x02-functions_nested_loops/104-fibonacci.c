@@ -33,7 +33,7 @@ int numLength(int num)
  *              solutiom was copied from Nobert Patrick
  *              Wise, github handle: Trikcode
  *
- *              Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
