@@ -1,28 +1,20 @@
 #include"main.h"
 
 /**
- * print_array - print reverse characters.
- * @a: Array
- * @n: Number of array
- * Return: Always
+ * _strcpy - print reverse characters.
+ * @dest: Array
+ * @src: - Number of array
+ * Return: Always return 0.
  */
-void print_array(int *a, int n)
+
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	if (n > 0)
+	for (i = 0; src[i]; i++)
 	{
-		for (i = 0; n > i; i++)
-		{
-			if (i != n - 1)
-			{
-				printf("%d, ", a[i]);
-			}
-			else
-			{
-				printf("%d", a[i]);
-			}
-		}
+		dest[i] = src[i];
 	}
-	printf("\n");
+	dest[i] = src[i];
+	return (dest);
 }
