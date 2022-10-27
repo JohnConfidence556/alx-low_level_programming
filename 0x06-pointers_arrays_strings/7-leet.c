@@ -31,7 +31,7 @@ char *leet(char *s)
 				break;
 			}
 		}
-		c++
+		c++;
 	}
 	return (s);
 }
