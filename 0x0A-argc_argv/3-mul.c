@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * main - multiply two numbers
- * @argc: arguements count
+ * @argc: arguement count
  * @argv: array of pointers to arguement strings
  * Return: result of multiplication or 1
  */
